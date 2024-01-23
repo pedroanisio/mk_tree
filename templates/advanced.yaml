@@ -1,0 +1,25 @@
+manifest:
+  name: "Advanced Project Structure"
+  description: "A template for advanced projects with multiple modules and extensive documentation."
+structure:
+  src:
+    module1:
+      __init__.py:
+      class1.py:
+    module2:
+      __init__.py:
+      class2.py:
+    main.py:
+  tests:
+    module1:
+      test_class1.py:
+    module2:
+      test_class2.py:
+  docs:
+    README.md:
+    CONTRIBUTING.md:
+    CHANGELOG.md:
+  config:
+    settings.yml:
+  .gitignore:
+  requirements.txt:

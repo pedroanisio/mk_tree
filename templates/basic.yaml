@@ -1,0 +1,14 @@
+manifest:
+  name: "BASIC Project Structure"
+  description: "A template for BASIC projects with multiple modules and extensive documentation."
+structure:
+  src:
+    main.py:
+    utils:
+      __init__.py:
+  test:
+    test_main.py:
+  docs:
+    README.md:
+  .gitignore:
+  requirements.txt:

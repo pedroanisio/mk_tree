@@ -1,0 +1,24 @@
+manifest:
+  name: "WEBAPP Project Structure"
+  description: "A template for WEBAPP projects with multiple modules and extensive documentation."
+structure:
+  app:
+    static:
+    templates:
+    __init__.py:
+    views.py:
+    models.py:
+  tests:
+    test_app.py:
+  docs:
+    README.md:
+    INSTALLATION.md:
+    USAGE.md:
+  config:
+    config.yml:
+  scripts:
+    start_server.sh:
+    setup_db.sh:
+  .gitignore:
+  requirements.txt:
+  Dockerfile:
